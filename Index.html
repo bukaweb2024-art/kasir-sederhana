@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kasir Sederhana</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🧾 Aplikasi Kasir</h1>
+
+  <label>Harga Barang</label>
+  <input type="number" id="harga">
+
+  <label>Jumlah</label>
+  <input type="number" id="jumlah">
+
+  <button onclick="hitungTotal()">Hitung Total</button>
+
+  <p id="total"></p>
+
+  <label>Bayar</label>
+  <input type="number" id="bayar">
+
+  <button onclick="hitungKembalian()">Hitung Kembalian</button>
+
+  <p id="kembalian"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
